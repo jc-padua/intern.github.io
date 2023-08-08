@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1</title>
+</head>
+<style>
+    html {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    main {
+        display: flex;
+        gap: 2rem;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        main {
+            flex-direction: column;
+        }
+    }
+
+    .assignment {
+        background-color: rgb(242, 123, 123);
+        height: 10rem;
+        padding: 3rem;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #FFF;
+        transition: scale .5s ease;
+    }
+
+    .assignment:hover {
+        scale: 1.1;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <main>
+        <a href="week1/assignment1.html">
+            <div class="assignment">
+                <h1>Assignment 1</h1>
+                <p>Click to view assignment</p>
+            </div>
+        </a>
+        <a href="week1/assignment2.html">
+            <div class="assignment">
+                <h1>Assignment 2</h1>
+                <p>Click to view assignment</p>
+            </div>
+        </a>
+        <a href="week2/index.html">
+            <p>Week 2</p>
+        </a>
+    </main>
+</body>
+
+</html>
