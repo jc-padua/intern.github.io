@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+body {
+    color: #FFF;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.internship {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.socials {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.socials-icon {
+    font-size: 1.8rem;
+}
+
+/* DASHES */
+
+.side-dash {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+}
+
+.side-dash .dash {
+    background-color: #FFF;
+    border-radius: 10px;
+    height: .4rem;
+    width: 4rem;
+    margin-bottom: 2rem;
+}
+
+.side-dash .dash:nth-child(2),
+.side-dash .dash:nth-child(3) {
+    height: .4rem;
+    width: 3rem;
+}
+
+.side-dash .dash:nth-child(4) {
+    height: .4rem;
+    width: 3.5rem;
+}
+
+.intern-description .dash {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: .4rem;
+    width: 4rem;
+    margin-bottom: 1rem;
+}
+
+.intern-dash {
+    margin: 2rem 0;
+}
+
+.intern-description .dash:nth-child(2) {
+    margin-left: 2rem;
+}
+
+/* BODY/MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intern-container {
+    max-width: 100%;
+    width: 40rem;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intern-description .intern-role {
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+.intern-name {
+    font-size: 6rem;
+    width: 50rem;
+}
+
+.logo-container img {
+    border-radius: 100%;
+    width: 25rem;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+.project-container {}
+
+.projects-container h2 {
+    margin: 2rem 0;
+}
+
+.project-collection {
+    display: flex;
+    gap: 2rem;
+}
+
+.assignment {
+    background-color: rgb(242, 123, 123);
+    height: 10rem;
+    padding: 3rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    transition: scale .5s ease;
+}
+
+.assignment:hover {
+    scale: 1.1;
+}
+
+a {
+    text-decoration: none;
+}
