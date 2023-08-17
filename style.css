@@ -167,6 +167,22 @@ main {
     scale: 1.1;
 }
 
+.project {
+    background-color: rgb(39, 126, 247);
+    height: 10rem;
+    padding: 3rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    transition: scale .5s ease;
+}
+
+.project:hover {
+    scale: 1.1;
+}
+
 a {
     text-decoration: none;
 }
